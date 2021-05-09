@@ -21,3 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('accounts.urls'))
 ]
+admin.site.site_header = "Admin DashBoard"
+admin.site.site_title = "Nam Phu Thinh | DashBoard"
+admin.site.index_title = "Welcome to Nam Phu Thinh Transport"
